@@ -1,0 +1,524 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  /*  Common*/
+
+  body {
+    font-size: 1.8rem;
+  }
+
+  .section-heading {
+    font-size: 5.6rem;
+    line-height: 1.18;
+    letter-spacing: -2.24px;
+  }
+
+  .section-desc {
+    font-size: 1.8rem;
+    line-height: 1.67;
+  }
+
+  .btn {
+    min-width: 170px;
+    height: 62px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.67;
+  }
+
+  .off-on-mobile {
+    display: block;
+  }
+
+  /*Menu drawer*/
+  .menu-drawer {
+    inset: 0 0 0 65%;
+  }
+
+  /*  Header*/
+  .navbar__menu-btn {
+    width: 50px;
+  }
+
+  .logo__img {
+    width: 50px;
+  }
+
+  .navbar__img {
+    width: 50px;
+  }
+
+  /*Hero*/
+
+  .hero__info {
+    align-items: center;
+  }
+
+  .hero__heading {
+    width: auto;
+    font-size: 8rem;
+    letter-spacing: -3.2px;
+    line-height: 0.95;
+    text-align: center;
+  }
+
+  .hero__desc {
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .hero__cta {
+    margin-top: 50px;
+  }
+
+  .hero__link {
+    font-size: 1.8rem;
+  }
+
+  .hero-social__wrap-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero__media {
+    width: 514px;
+    height: 705px;
+  }
+
+  .hero__decor {
+    left: -200px;
+    top: -80px;
+  }
+
+  /*  Meet*/
+  .clients__heading {
+    font-size: 4.2rem;
+    line-height: 1.19;
+    letter-spacing: -1.68px;
+    width: auto;
+  }
+
+  .clients__wrap {
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+  }
+
+  /*  Specialities*/
+  .specialities__desc {
+    width: 534px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .specialities__list {
+    row-gap: 15px;
+  }
+
+  .specialities-item__title {
+    margin-top: 22px;
+    font-size: 3.2rem;
+    line-height: 1.25;
+    letter-spacing: -1.28px;
+  }
+
+  .specialities-item__desc {
+    margin-top: 15px;
+    font-size: 1.8rem;
+    line-height: 1.67;
+  }
+
+  .specialities__dots {
+    display: none;
+  }
+
+  /*  Projects*/
+  .projects__heading {
+    width: 65%;
+  }
+
+  .projects__desc {
+    width: 70%;
+    margin: 20px auto 0;
+  }
+
+  /*  Designer*/
+  .designer__desc {
+    width: 70%;
+  }
+
+  .designer-header__text-sub-title {
+    font-size: 3.2rem;
+    line-height: 1.25;
+    letter-spacing: -1.28px;
+    margin-right: 9px;
+  }
+
+  .designer-statistical__number {
+    font-size: 5.6rem;
+    line-height: 1.36;
+    letter-spacing: 1.68px;
+  }
+
+  .designer-statistical__number::after {
+    height: 3px;
+  }
+
+  .designer-statistical__desc {
+    font-size: 1.8rem;
+    line-height: 1.67;
+    width: auto;
+  }
+
+  .designer-video {
+    height: 628px;
+  }
+
+  .designer-video__play-btn {
+    width: 111px;
+  }
+
+  .designer-video__btn {
+    min-width: 170px;
+    height: 62px;
+    font-size: 1.8rem;
+    line-height: 1.67;
+  }
+
+  /*  Questions*/
+  .questions__heading {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /*  Atmosphere*/
+  .atmosphere__desc {
+    width: 528px;
+  }
+
+  .atmosphere__contract {
+    margin-top: 30px;
+    font-size: 3.2rem;
+    line-height: 1.25;
+    letter-spacing: -1.28px;
+  }
+
+  .atmosphere__contract::after {
+    left: 0;
+    bottom: 6px;
+    background: #5d3bee;
+  }
+
+  .atmosphere__list {
+    margin-top: 60px;
+  }
+
+  /*  Talk*/
+  .talk {
+    margin-top: 140px;
+  }
+
+  .talk__icon {
+    width: 95px;
+    height: 95px;
+  }
+
+  .talk__hading,
+  .talk__desc {
+    width: 576px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  /*Header*/
+  .header__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar {
+    width: calc(1140px + 160px);
+    margin-left: -15px;
+    margin-right: -15px;
+    justify-content: space-between;
+    border-bottom: none;
+  }
+
+  .navbar-list__item {
+    margin-left: 7px;
+  }
+
+  .navbar__menu-btn {
+    display: none;
+  }
+
+  .navbar-list-pc {
+    display: flex;
+  }
+
+  .navbar .logo {
+    margin-left: 0;
+    order: 0;
+  }
+
+  .navbar__img {
+    margin: 0 auto;
+  }
+
+  .header__logo-email {
+    display: block;
+  }
+
+  /*  Hero*/
+  .hero__inner {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero__info {
+    width: 500px;
+    align-items: start;
+    padding-left: 73px;
+  }
+
+  .hero-social {
+    margin-top: 104px;
+  }
+
+  .hero__heading,
+  .hero__desc {
+    text-align: left;
+    width: auto;
+  }
+
+  .hero__decor-pc {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: -191px;
+  }
+
+  /*  Meet*/
+  .clients__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .clients__heading {
+    position: relative;
+    padding-left: 99px;
+    text-align: left;
+    width: 352px;
+  }
+
+  .clients__heading::before {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 86px;
+    background: #5d3bee;
+  }
+
+  .clients__wrap {
+    margin-top: 0;
+  }
+
+  /*  Projects*/
+  .projects__header {
+    display: flex;
+    align-items: center;
+    column-gap: 160px;
+  }
+
+  .projects__heading,
+  .projects__desc {
+    text-align: left;
+    margin: 0;
+  }
+
+  .projects__heading {
+    width: 468px;
+  }
+  .projects__desc {
+    width: 370px;
+  }
+
+  .projects__list {
+    margin-top: 70px;
+  }
+
+  .projects-item {
+    padding: 24px 24px 24px 34px;
+  }
+
+  .projects-item__title {
+    font-size: 3.2rem;
+    line-height: 1.25;
+    letter-spacing: -1.28px;
+  }
+
+  .projects-item__desc {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    line-height: 1.44;
+    width: 220px;
+  }
+
+  .projects-item__link {
+    font-size: 1.8rem;
+    line-height: 1.67;
+    margin-top: 20px;
+  }
+
+  .projects-item__img {
+    width: 43%;
+    height: 78%;
+  }
+
+  .projects-item__decor:nth-of-type(2) {
+    right: 0;
+  }
+
+  /*  Designer*/
+  .designer__desc {
+    margin-top: 15px;
+    width: 570px;
+  }
+
+  .designer-statistical {
+    padding: 20px 0;
+    width: 946px;
+    margin: 70px auto 0;
+  }
+
+  .designer-video {
+    margin-top: 70px;
+  }
+
+  /*  Reviews*/
+  .reviews__desc {
+    width: 570px;
+    margin: 20px auto 0;
+  }
+
+  .reviews__list {
+    margin-top: 60px;
+  }
+
+  .review-item__desc {
+    font-size: 2.4rem;
+    line-height: 1.67;
+    margin: 0 auto;
+    width: 679px;
+  }
+
+  .review-item__wrap {
+    margin-top: 36px;
+  }
+
+  .reviews__dots {
+    margin-top: 40px;
+  }
+
+  /*  Questions*/
+  .questions__heading {
+    width: 575px;
+  }
+
+  .questions__list {
+    width: 1009px;
+  }
+
+  .questions-item__title {
+    font-size: 3.2rem;
+    line-height: 1.25;
+    letter-spacing: -1.28px;
+    width: 90%;
+    margin-bottom: 23px;
+  }
+
+  .questions-item__desc {
+    margin-bottom: 21px;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    width: 487px;
+  }
+
+  .questions-item__btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .questions-item__btn::before,
+  .questions-item__btn::after {
+    width: 14px;
+  }
+
+  .questions-item__btn::after {
+    left: 17px;
+  }
+
+  /*  Talk*/
+  .talk {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1130px;
+    max-width: 100%;
+  }
+
+  .talk__decor {
+    left: 120px;
+  }
+
+  .show-talk__decor-left {
+    display: block;
+    left: 0;
+    top: 172px;
+  }
+
+  .show-talk__decor-right {
+    display: block;
+    left: 821px;
+    top: 0;
+  }
+
+  /*  Footer*/
+
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 49px;
+    padding-left: 49px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #cecdd2 ;
+    width: 1429px;
+    max-width: 100%;
+  }
+
+  .footer-top__logo {
+    order: 0;
+  }
+
+  .footer-bottom .footer-bottom__line-on-mobile {
+    display: none;
+  }
+
+
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-evenly;;
+  }
+}
